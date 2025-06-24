@@ -10,7 +10,11 @@ import { RouterOutlet } from '@angular/router';
 export class App {
   protected title = 'angular-part1';
   name = 'amanpatel';
-  pd= this.hrllo1();
+  pd = this.hrllo1();
+
+  user1 = 'aman' .toUpperCase();
+  user2 = 'patel';
+  user3 = 'ambalal';
 
   hrllo1() {
     const a = 10;
